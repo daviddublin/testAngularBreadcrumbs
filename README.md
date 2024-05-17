@@ -1,3 +1,1 @@
-# dbsc
-some sailing results to play with
-mostly just for myself
+To test angular breadcrumbs
