@@ -1,0 +1,5 @@
+<ol id="breadcrumbNav" class="breadcrumb-nav">
+    <li *ngFor="let breadcrumb of breadcrumbs$ | async; let i = index">
+        <a *ngIf="i > 0 && i !== (breadcrumbs$ | async)?.length" [href]="breadcrumb.url">{{ breadcrumb.label }}</a>
+    </li>
+</ol>

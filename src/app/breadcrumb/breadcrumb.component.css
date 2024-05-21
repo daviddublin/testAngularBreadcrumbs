@@ -1,0 +1,17 @@
+.breadcrumb-nav {
+    list-style: none;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0;
+    font-size: medium;
+}
+
+.breadcrumb-nav li{
+    display: inline-block;
+    margin: 6px;
+}
+
+.breadcrumb-nav a {
+    color: black;
+    text-decoration: none;
+}
